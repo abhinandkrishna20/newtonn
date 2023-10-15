@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/newtonn/static/css/main.d941b39d.css",
+    "main.js": "/newtonn/static/js/main.558fc208.js",
+    "static/js/787.7c10b5c2.chunk.js": "/newtonn/static/js/787.7c10b5c2.chunk.js",
+    "static/media/footer-bg.jpg": "/newtonn/static/media/footer-bg.5ce9b590a414e3ce9534.jpg",
+    "static/media/car1.jpg": "/newtonn/static/media/car1.9e5032971f7ec5e4ac56.jpg",
+    "static/media/car2.jpg": "/newtonn/static/media/car2.8b805addaa594f21a8e8.jpg",
+    "static/media/car3.jpg": "/newtonn/static/media/car3.2c6c9b5e2e3bb55a137e.jpg",
+    "static/media/1.jpg": "/newtonn/static/media/1.374053e0d1b937e87878.jpg",
+    "static/media/3.jpg": "/newtonn/static/media/3.0a64a3a733188c1c1ed1.jpg",
+    "static/media/4.jpg": "/newtonn/static/media/4.40870e4c308bb3e0c1c8.jpg",
+    "static/media/2.jpg": "/newtonn/static/media/2.2f6d77b9dce64537268a.jpg",
+    "static/media/image7.jpg": "/newtonn/static/media/image7.79b54561cd6ccc2cc84c.jpg",
+    "static/media/image6.jpeg": "/newtonn/static/media/image6.bd4e0931d5f2bc128d5f.jpeg",
+    "static/media/image8.jpg": "/newtonn/static/media/image8.3601e2ce3afc627486e7.jpg",
+    "static/media/image5.webp": "/newtonn/static/media/image5.1e135036ba692e0d7756.webp",
+    "static/media/image2.webp": "/newtonn/static/media/image2.8d68fd360e4f9216924b.webp",
+    "static/media/image3.webp": "/newtonn/static/media/image3.49d193764356d1f06990.webp",
+    "static/media/image1.webp": "/newtonn/static/media/image1.083195fc9dd0b57950e0.webp",
+    "static/media/image4.webp": "/newtonn/static/media/image4.cc6f7b161ac43639aa3a.webp",
+    "static/media/logo.svg": "/newtonn/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/newtonn/index.html",
+    "main.d941b39d.css.map": "/newtonn/static/css/main.d941b39d.css.map",
+    "main.558fc208.js.map": "/newtonn/static/js/main.558fc208.js.map",
+    "787.7c10b5c2.chunk.js.map": "/newtonn/static/js/787.7c10b5c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d941b39d.css",
+    "static/js/main.558fc208.js"
+  ]
+}
