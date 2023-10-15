@@ -94,7 +94,7 @@ const Footer =()=>{
         </div>
         <div class="credits">
                 
-          Designed & Developed by <a href="#"><h6>Pheonix iTech Ltd</h6></a>
+          Powered by <a href="#"><h6>Pheonix iTech Ltd</h6></a>
         </div>
       </div>
     </div>
