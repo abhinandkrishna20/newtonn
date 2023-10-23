@@ -82,12 +82,12 @@ h2 {
 }
 
 .cards::-webkit-scrollbar {
-    height: 12px;
+    /* height: 12px; */
 }
 
 .cards::-webkit-scrollbar-thumb,
 .cards::-webkit-scrollbar-track {
-    border-radius: 92px;
+    /* border-radius: 92px; */
 }
 
 .cards::-webkit-scrollbar-thumb {
