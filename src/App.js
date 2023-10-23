@@ -18,7 +18,7 @@ function App() {
       <Top />
         <Header />
         
-      <Router basename="/newtonn">
+      <Router >
         
         <Routes>
           <Route path="/newtonn" element={<Home />} />
