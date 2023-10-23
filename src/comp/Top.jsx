@@ -43,7 +43,7 @@ return (
 </div> 
 <div>
    
-      <a href="sign">
+      <a href="/newtonn/sign">
          {/* <Link to={
          <SignUp />
          }> */}
