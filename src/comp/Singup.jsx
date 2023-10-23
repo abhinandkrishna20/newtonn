@@ -12,13 +12,17 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Header from './Header';
+import Footer from './Footer';
+import Top from './Top';
+import Home from './Home';
 
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="/">
+       NEWTONN
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -41,6 +45,9 @@ export default function SignUp() {
   };
 
   return (
+    <div>
+      {/* <Top /> */}
+      
     <ThemeProvider theme={defaultTheme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
@@ -128,6 +135,13 @@ export default function SignUp() {
         </Box>
         {/* <Copyright sx={{ mt: 5 }} /> */}
       </Container>
+      <div className='m-3'>
+          <p className='text-center'>
+          {/* Footer */}
+          </p>
+      </div>
     </ThemeProvider>
+   
+    </div>
   );
 }

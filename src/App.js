@@ -1,30 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './comp/Header';
-import Footer from './comp/Footer';
-import Carousal from './comp/Carousal';
-import Footer2 from './comp/Footer2';
-import Material from './comp/Material';
-import Top from './comp/Top';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-// import { Login } from '@mui/icons-material';
-import Signup from './comp/Singup';
-import Design from './comp/Design';
+import Header from "./comp/Header";
+import Footer from "./comp/Footer";
+import Top from "./comp/Top";
+// import Top2 from "./comp/Top2";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React from "react";
+import Signup from "./comp/Singup"; // Correct the typo in "Signup"
+import ReactDOM from "react-dom/client";
+
+import Home from "./comp/Home";
+
+import Contact from "./comp/Contact";
+import About from "./comp/About";
+
 function App() {
   return (
     <div className="App">
       <Top />
-      {/* <Header /> */}
-      <Carousal />
-      <Material />
-      <Design />
-      {/* <Signup /> */}
-      <Footer />
-      {/* <Footer2 /> */}
+        <Header />
+        
+      <Router>
+        
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sign" element={<Signup />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       
+      </Router>
+      <Footer />
     </div>
   );
 }
-
 
 export default App;

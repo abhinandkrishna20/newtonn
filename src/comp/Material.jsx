@@ -37,7 +37,7 @@ const cardsData = [
   ];
 
   return (
-    <div className="container">
+    <div className="container mt-3 text-center">
       <h2>Construction Materials available with Ours</h2>
       <ul className="cards">
         {cardsData.map((card) => (

@@ -8,6 +8,7 @@ import im6 from '../img/service/image6.jpeg';
 import im7 from '../img/service/image7.jpg';
 import im8 from '../img/service/image8.jpg';
 
+
 const Design=()=>{
     const buttons = [
         { imageUrl: im1, alt: 'Image 1' },
@@ -20,8 +21,9 @@ const Design=()=>{
         { imageUrl: im8, alt: 'Image 8' },
       ];
     return(
-        <div className="container text-center mt-5">
-        <h1 className=" text-center ">Services</h1>
+        <div style={{background:"#eeffee"}} >
+        <div className="container text-center mt-5" >
+        <h1 className=" text-center ">Design</h1>
         <div className="row mt-4">
           {buttons.map((button, index) => (
             <div key={index} className="col-md-3 mb-4">
@@ -36,6 +38,7 @@ const Design=()=>{
             </div>
           ))}
         </div>
+      </div>
       </div>
     );
 }

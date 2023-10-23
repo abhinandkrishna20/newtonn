@@ -5,10 +5,10 @@ import car3 from '../img/car/car3.jpg';
 import '../Style/Carosel.css';
 const Carousal =()=>{
     return(
-        <div className=" ">
+        
       
             
-      <div id="imageCarousel" className="hero carousel slide  custom-carousel" data-bs-ride="carousel" data-bs-interval="3000">
+      <div id="imageCarousel" className="hero carousel slide  custom-carousel" data-bs-ride="carousel" data-bs-interval="2000">
         <div className="carousel-inner ">
           <div className="carousel-item active">
          
@@ -87,7 +87,7 @@ const Carousal =()=>{
         </a>
       </div>
     
-        </div>
+          
     );
 }
 export default Carousal;
