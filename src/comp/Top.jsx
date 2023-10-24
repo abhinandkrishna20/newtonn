@@ -11,7 +11,7 @@ return (
 <div >
 <nav className="navbar navbar-expand-lg" style={{backgroundColor:"#aa0044", opacity:"0.9",top:"0px", left:"0px", maxHeight:"90px", }} >
 <div className="container">
-   <a className="navbar-brand" href="/">
+   <a className="navbar-brand" href="/newtonn">
    <img src={logo} className="d-inline-block align-top text-start" alt="NEWTONN" style={{width:"230px", height:"103px", position:"relative", left:"-80px", }}   />
    </a>
    <div className='row'>

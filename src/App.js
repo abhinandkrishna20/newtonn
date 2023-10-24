@@ -15,20 +15,20 @@ import About from "./comp/About";
 function App() {
   return (
     <div className="App">
+      
+        
+      <Router basename="/newtonn" >
       <Top />
         <Header />
-        
-      <Router >
-        
         <Routes>
-          <Route path="/newtonn" element={<Home />} />
+          <Route path="/newtonn/" element={<Home />} />
           <Route path="/newtonn/sign" element={<Signup />} />
           <Route path="/newtonn/about" element={<About />} />
           <Route path="/newtonn/contact" element={<Contact />} />
         </Routes>
-      
+        <Footer />
       </Router>
-      <Footer />
+      
     </div>
   );
 }
