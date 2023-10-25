@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       
         
-      <Router basename="/newtonn" >
+      <Router basename="/newtonn"  >
       <Top />
         <Header />
         <Routes>
