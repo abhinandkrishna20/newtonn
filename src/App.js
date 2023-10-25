@@ -2,7 +2,7 @@ import Header from "./comp/Header";
 import Footer from "./comp/Footer";
 import Top from "./comp/Top";
 // import Top2 from "./comp/Top2";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter , Routes, Route, Link } from "react-router-dom";
 import React from "react";
 import Signup from "./comp/Singup"; // Correct the typo in "Signup"
 import ReactDOM from "react-dom/client";
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       
         
-      <Router   >
+      <HashRouter   >
       <Top />
         <Header />
         <Routes>
@@ -27,7 +27,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
-      </Router>
+      </HashRouter>
       
     </div>
   );
