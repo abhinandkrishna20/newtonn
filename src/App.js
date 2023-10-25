@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       
         
-      <HashRouter basename="/newtonn/"  >
+      <HashRouter   >
       <Top />
         <Header   />
         <Routes>
