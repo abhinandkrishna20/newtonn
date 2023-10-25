@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/newtonn/static/css/main.a87dea2b.css",
-    "main.js": "/newtonn/static/js/main.b930e8c2.js",
+    "main.js": "/newtonn/static/js/main.64aebeac.js",
     "static/media/serv2.jpg": "/newtonn/static/media/serv2.5da86e8c6f1ecbf3cdd4.jpg",
     "static/media/serv5.jpg": "/newtonn/static/media/serv5.f1630b972d78c78f0bc5.jpg",
     "static/media/footer-bg.jpg": "/newtonn/static/media/footer-bg.5ce9b590a414e3ce9534.jpg",
@@ -27,10 +27,10 @@
     "static/media/image4.webp": "/newtonn/static/media/image4.cc6f7b161ac43639aa3a.webp",
     "index.html": "/newtonn/index.html",
     "main.a87dea2b.css.map": "/newtonn/static/css/main.a87dea2b.css.map",
-    "main.b930e8c2.js.map": "/newtonn/static/js/main.b930e8c2.js.map"
+    "main.64aebeac.js.map": "/newtonn/static/js/main.64aebeac.js.map"
   },
   "entrypoints": [
     "static/css/main.a87dea2b.css",
-    "static/js/main.b930e8c2.js"
+    "static/js/main.64aebeac.js"
   ]
 }
