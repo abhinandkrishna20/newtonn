@@ -28,12 +28,12 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item"> 
-              <a className="nav-link" href="/newtonn/#/about" style={{ color: 'white' }}>
+              <a className="nav-link" href="/newtonn/about" style={{ color: 'white' }}>
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/newtonn/#/contact" style={{ color: 'white' }}>
+              <a className="nav-link" href="/newtonn/contact" style={{ color: 'white' }}>
                 Contact
               </a>
             </li>
