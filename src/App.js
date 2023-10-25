@@ -19,7 +19,7 @@ function App() {
         
       <HashRouter   >
       <Top />
-        <Header />
+        <Header  basename="/newtonn" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sign" element={<Signup />} />
