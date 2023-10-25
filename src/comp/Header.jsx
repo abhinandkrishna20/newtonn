@@ -24,19 +24,21 @@ const Header = () => {
         <div className="collapse navbar-collapse" style={{ color: "#ffffff" }} id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/" style={{ color: 'white' }}>
-                Home
+            <a className="nav-link"  style={{ color: 'white',  }}>
+              <Link to="/"  style={{ color: 'white', textDecoration:"none"  }}>Home</Link>
+                
               </a>
             </li>
             <li className="nav-item"> 
-              {/* <a className="nav-link" href="/about" style={{ color: 'white' }}> */}
-              <Link to="/about">About</Link>
+              <a className="nav-link"  style={{ color: 'white',  }}>
+              <Link to="/about"  style={{ color: 'white', textDecoration:"none"  }}>About</Link>
                 
-              {/* </a> */}
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact" style={{ color: 'white' }}>
-                Contact
+            <a className="nav-link"  style={{ color: 'white',  }}>
+              <Link to="/contact"  style={{ color: 'white', textDecoration:"none"  }}>Contact</Link>
+                
               </a>
             </li>
             <li className="nav-item dropdown">
