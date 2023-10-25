@@ -21,10 +21,10 @@ function App() {
       <Top />
         <Header  basename="/newtonn" />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/sign" element={<Signup />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/newtonn/" element={<Home />} />
+          <Route path="/newtonn/#/sign" element={<Signup />} />
+          <Route path="/newtonn/#//about" element={<About />} />
+          <Route path="/newtonn/#/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </HashRouter>
