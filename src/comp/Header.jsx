@@ -3,6 +3,7 @@ import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import InputAdornment from '@mui/material/InputAdornment';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -28,9 +29,10 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item"> 
-              <a className="nav-link" href="/about" style={{ color: 'white' }}>
-                About
-              </a>
+              {/* <a className="nav-link" href="/about" style={{ color: 'white' }}> */}
+              <Link to="/about">About</Link>
+                
+              {/* </a> */}
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/contact" style={{ color: 'white' }}>
