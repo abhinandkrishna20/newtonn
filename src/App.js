@@ -17,9 +17,9 @@ function App() {
     <div className="App">
       
         
-      <HashRouter   >
+      <HashRouter basename="/newtonn/"  >
       <Top />
-        <Header  basename="/newtonn/" />
+        <Header   />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sign" element={<Signup />} />
