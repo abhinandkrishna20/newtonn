@@ -23,17 +23,17 @@ const Header = () => {
         <div className="collapse navbar-collapse" style={{ color: "#ffffff" }} id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/newtonn/" style={{ color: 'white' }}>
+              <a className="nav-link" href="/" style={{ color: 'white' }}>
                 Home
               </a>
             </li>
             <li className="nav-item"> 
-              <a className="nav-link" href="/newtonn/about" style={{ color: 'white' }}>
+              <a className="nav-link" href="/about" style={{ color: 'white' }}>
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/newtonn/contact" style={{ color: 'white' }}>
+              <a className="nav-link" href="/contact" style={{ color: 'white' }}>
                 Contact
               </a>
             </li>
