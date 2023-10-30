@@ -5,6 +5,7 @@ import Material from './Material';
 import Design from './Design';
 import car3 from '../img/car/car3.jpg';
 import Service from "./Service";
+import Services from "./Services";
 // import bg from "../img/background.jpeg";
 
 
@@ -18,9 +19,7 @@ const Home =()=>{
     return(
         <div style={{background:divStyle,opacity:0.9}}>
             <Carousal />
-            <Material />
-            <Design />
-            <Service />
+            <Services />
         </div>
     );
 }

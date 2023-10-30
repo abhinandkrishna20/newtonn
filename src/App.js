@@ -11,7 +11,14 @@ import Home from "./comp/Home";
 
 import Contact from "./comp/Contact";
 import About from "./comp/About";
+import Intdesign from "./comp/Intdesign";
+import Addcart from "./comp/Addcart";
+import Addcartcmt from "./comp/Addcartcmt";
+import Addcartstl from "./comp/Addcartstl";
 
+import Addcartsnd from "./comp/Addcartsnd";
+
+import Addcartagr from "./comp/Addcartagr";
 function App() {
   return (
     <div className="App">
@@ -25,6 +32,14 @@ function App() {
           <Route path="/sign" element={<Signup />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/intdesign" element={<Intdesign />} />
+          <Route path="/addcart/bricks" element={<Addcart />} />
+          <Route path="/addcart/cmt" element={<Addcartcmt />} />
+          <Route path="/addcart/stl" element={<Addcartstl />} />
+          <Route path="/addcart/snd" element={<Addcartsnd />} />
+          <Route path="/addcart/agr" element={<Addcartagr />} />
+          
+          
         </Routes>
         <Footer />
       </BrowserRouter>

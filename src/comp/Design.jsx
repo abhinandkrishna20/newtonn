@@ -7,6 +7,7 @@ import im5 from '../img/service/image5.webp';
 import im6 from '../img/service/image6.jpeg';
 import im7 from '../img/service/image7.jpg';
 import im8 from '../img/service/image8.jpg';
+import { Link } from "react-router-dom";
 
 
 const Design=()=>{
@@ -29,11 +30,13 @@ const Design=()=>{
             <div key={index} className="col-md-3 mb-4">
                 <h5></h5>
               <button className="btn btn-light btn-block">
+                <Link to={"/intdesign"}>
                 <img
                   src={button.imageUrl}
                   alt={button.alt}
                   className="img-fluid"
                 />
+                </Link>
               </button>
             </div>
           ))}

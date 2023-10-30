@@ -31,10 +31,10 @@
     inset: 0;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     overflow: hidden;
     z-index: 1;
-    transition-duration: 0.4s;
+    transition-duration: 0.6s;
     color: aliceblue;
   }
   .hero .carousel-item::before {
@@ -67,7 +67,7 @@
     content: "";
     position: absolute;
     display: block;
-    width: 80px;
+    /* width: 80px; */
     height: 4px;
     background: var(--color-primary);
     left: 0;
@@ -99,7 +99,7 @@
     display: inline-block;
     padding: 12px 40px;
     border-radius: 50px;
-    transition: 0.5s;
+    /* transition: 0.5s; */
     margin: 10px;
     
     color: #fff;
@@ -132,7 +132,7 @@
   
   .hero .carousel-control-next-icon1,
   .hero .carousel-control-prev-icon1 {
-    background: none;
+    /* background: none; */
     font-size: 26px;
     line-height: 0;
     background: rgba(24, 4, 78, 0.2);

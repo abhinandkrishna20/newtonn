@@ -45,7 +45,7 @@ export default function SignUp() {
   };
 
   return (
-    <div>
+    <div className='sign'>
       {/* <Top /> */}
       
     <ThemeProvider theme={defaultTheme}>
