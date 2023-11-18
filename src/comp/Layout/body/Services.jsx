@@ -47,12 +47,12 @@ const Services = () => {
                 padding: "10px",
                 justifyItems: "center",
               }}
-            >
+            ><Link to="/interior" >
               <img
                 src={img1}
                 alt=""
                 style={{ padding: "10px", width: "150px", height: "150px" }}
-              />
+              /></Link>
             </div>
           </div>
           <div

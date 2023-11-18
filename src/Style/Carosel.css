@@ -57,8 +57,9 @@
 .hero .info h3 {
     color: #fff;
     margin-bottom: 30px;
+    margin-top: 130px;
     padding-bottom: 30px;
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 400;
     position: relative;
   }
@@ -69,7 +70,7 @@
     display: block;
     /* width: 80px; */
     height: 4px;
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
     left: 0;
     right: 0;
     bottom: 0;
@@ -164,4 +165,35 @@
     justify-content: end;
   }
   
+  .search{
+    /* background-color: #aaaaaa; */
+    padding: 25px;
+  }
+  .search input{
+    border: none;
+    opacity: 0.5;
+    margin: 10px;
+    background-color: #aaaaaa;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+    outline: none;
+
+  }
+  .search input::placeholder{
+    color: black;
+  }
+  .icon{
+    padding: 10px;
+    color:#1a1a1a;
+  }
+  .search-child{
+    background-color: #aaaaaa;
+    border-radius: 10px;
+   margin: 10px 6px;
+
+    /* opacity: 0.5; */
+   
+  }
   

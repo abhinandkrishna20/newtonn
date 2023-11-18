@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headcontact a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    padding: 10px;
+
+
+}
+.headcontact{
+    justify-content: flex-end;
+}
+.logo{
+    padding: 10px;
+    justify-content: center;
+}
+.nav{
+display: flex;
+justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ ul>li {
+   
+
+    text-decoration: none ;
+    padding: 10px;
+    list-style: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+
+a{
+    text-decoration: none !important;
+    color: rgb(228, 212, 212);
+
+}
+.navbar ul>li:hover, .nav>li>a{
+    background-color: brown;
+    color: white !important;
+    text-decoration: none;
+}
+.navbar ul>li>{
+    text-decoration: none;
+    color: aliceblue;
+}
