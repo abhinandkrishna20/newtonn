@@ -1,0 +1,261 @@
+*{
+    text-align: center;
+    /* margin: 10px 0px; */
+}
+.service{
+    margin: 20px 0px;
+}
+.service h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.service p{
+    color: #999999;
+    /* width: 50%; */
+}
+.service-item{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+.why{
+    
+    background-color: #a9a9a9;
+}
+.whynew{
+    padding: 20px;
+    /* display: flex; */
+    justify-content: center;
+  
+}
+.why h3{
+    margin-top: 10px;
+}
+.why .round{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #bababa;
+    justify-content: center;
+    display: inline-block;
+}
+.why-items{
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.whyblock{
+    /* display: ; */
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 25px;
+}
+.whyblock h5{
+    margin-top: 10px;
+}
+.How{
+
+}
+.How-items{
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer{
+    /* position: fixed;  */
+    bottom: 0;
+    width: 100%;
+    /* margin: 0; */
+    padding: 0;
+}
+.footer-col{
+    background-color: #021212;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer-link{
+    margin: 10px;
+    /* padding-left: 30px, 20px; */
+    /* display: flex; */
+    justify-content: space-around;
+}
+
+.footer-link ,.footer-link li, .footer-link h5 {
+    text-align: left;
+    color: #fafafa;
+}
+.footer-link h5{
+    margin-left: 20px;
+    border-left: 4px solid #e71616;
+    padding-left: 10px;
+}
+
+.footer-col li a{
+text-decoration: none;
+color: #fafafa;
+/* display: flex; */
+}
+.footer .copyright {
+    background: copyright;
+    padding: 5px;
+    color: #fafafa;
+    background-color: #021212;
+    justify-content: left;
+}
+.copyright p{
+    text-align: left;
+    padding: 10px;
+    margin-top: 0px 10px ;
+    font-size: 15px;
+    color: #a0a0a0;
+}
+.social{
+    background-color: #bababa;
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+
+.social .logo img{
+    max-height: 60px;
+    margin-top: 0px;
+}
+.social-icon{
+    display: flex;
+    margin: 0px;
+    /* background-color: #ffffff; */
+    padding-right: 10px;
+    padding-bottom: 10px;
+    /* margin-right: 0px; */
+
+    
+}
+.social-icon img{
+    height: 40px;
+    /* width: 100px; */
+    
+    /* background-color: #ffffff; */
+    padding-right: 10px;
+}
+.footer-soci p{
+text-align: start;
+margin-left: 0px;
+padding: opx;
+}
+.refer{
+    background-color: #eeddff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.refer-pic{
+    /* align-content: end; */
+    /* position: absolute; */
+    right: 0;
+    /* margin: 10px; */
+
+}
+.refer-pic img{
+    
+    height: 450px;
+}
+.refer-control{
+    padding: 30px;
+    padding-left: 100px;
+}
+
+.refer-control h2{
+    color: #1f001f;
+    font-size: 50px;
+    padding: 10px;
+}
+.refer-control button{
+    background-color: #e71733;
+    padding: 17px 30px;
+    border-radius: 50px;
+    border: none;
+    color: #fafafa;
+    font-weight: 500;
+    margin-top: 140px;
+    font-size: 20px;
+    position: absolute;
+    /* width: 250px; */
+    left: 100px;
+    /* bottom: 50px; */
+}
+.refer1{
+    background-color: #eeddff;
+    width: 100%;
+    padding: 20px;
+   
+   
+}
+.refer1 img{
+    /* height: 400px; */
+    width: 100%;
+    padding: 20px;
+
+}
+.contract{
+    padding: 40px 10px;
+    margin-top: 40px 0px;
+}
+.profile{
+    box-shadow: 2px 2px 2px 2px #021212;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.profile h4{
+    border-top: #5f5f5f solid;
+    padding: 5px;
+}
+.profile img{
+    background-color: #d1d1d1;
+    border-radius: 10px 10px 0px 0px;
+ 
+}
+.con-prof{
+    padding: 10px;
+    scroll-behavior: smooth;
+    display: flex;
+    overflow-x: auto;
+    margin: 10px 30px;
+    
+    /* overflow: hidden; */
+    -webkit-overflow-scrolling: touch;
+}
+.con-prof::-webkit-scrollbar-thumb {
+    background-color: #3498db;
+}
+.con-prof::-webkit-scrollbar{
+    display: none;
+}
+
+.contract button{
+    background-color: #080808;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: none;
+    color: #fafafa;
+    font-weight: 500;
+    
+    font-size: 20px;
+    /* position: absolute; */
+    width: 250px;
+    left: 100px;
+}

@@ -179,14 +179,16 @@
     color: black;
     text-align: left;
     outline: none;
+    margin: 20px;
 
   }
   .search input::placeholder{
     color: black;
   }
-  .icon{
+  .search .icon{
     padding: 10px;
     color:#1a1a1a;
+    margin-left: 10px;
   }
   .search-child{
     background-color: #aaaaaa;

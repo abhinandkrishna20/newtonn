@@ -27,11 +27,11 @@ Creating masterpieces that define our world
                   <div className="search col-lg-12" style={{display:"flex",justifyContent:"center"}}>
                     <div className="search-child" >
                     <i class="fas fa-map-marker-alt icon"></i>
-                      <input type="text" name="location" placeholder="Location" />
+                      <input type="text" name="location" placeholder="Location" style={{width:"100px"}} />
                     </div>
-                    <div className="search-child">
+                    <div className="search-child " >
                     <i class="fas fa-search icon"></i>
-                      <input type="text" name="search" placeholder="Search" />
+                      <input type="text" name="search" placeholder="Search" style={{width:"250px"}} />
                     </div>
                   </div>
 

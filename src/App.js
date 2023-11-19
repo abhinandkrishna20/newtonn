@@ -2,7 +2,7 @@ import { BrowserRouter , Routes, Route, Link } from "react-router-dom";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Header1 from "./comp/Layout/header/Header1";
-import Footer from "./comp/Layout/footer/Footer"
+import Footer from "./comp/Layout/footer/Footer";
 import Body from "./comp/Layout/body/Body";
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
           
           
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
    
       </BrowserRouter>
       
