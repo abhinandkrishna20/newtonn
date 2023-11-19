@@ -5,7 +5,7 @@ const Refer = () => {
   return (
     <div className="refer">
       <div className="refer-control">
-        <h2>Refer & Earn 3% <br /> On Everything</h2>
+        <h2>Refer & Earn 3%  On Everything</h2>
 
         <button>APPLY NOW</button>
       </div>

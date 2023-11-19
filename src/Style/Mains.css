@@ -191,7 +191,7 @@ padding: opx;
     font-weight: 500;
     margin-top: 140px;
     font-size: 20px;
-    position: absolute;
+    /* position: absolute; */
     /* width: 250px; */
     left: 100px;
     /* bottom: 50px; */
