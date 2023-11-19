@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newtonn/static/css/main.7f30aaae.css",
-    "main.js": "/newtonn/static/js/main.d3c2e1cc.js",
+    "main.css": "/newtonn/static/css/main.df329478.css",
+    "main.js": "/newtonn/static/js/main.e99978f3.js",
     "static/media/refer.png": "/newtonn/static/media/refer.6a35c99e7e3dbcf1786a.png",
     "static/media/back.png": "/newtonn/static/media/back.3addee5cbd39e14659b8.png",
     "static/media/car1.jpg": "/newtonn/static/media/car1.7c6bea1d994736d1876b.jpg",
@@ -18,11 +18,11 @@
     "static/media/4.png": "/newtonn/static/media/4.6ec9dab10500941bd4e8.png",
     "static/media/profile.png": "/newtonn/static/media/profile.71cb27f6586d02e68e11.png",
     "index.html": "/newtonn/index.html",
-    "main.7f30aaae.css.map": "/newtonn/static/css/main.7f30aaae.css.map",
-    "main.d3c2e1cc.js.map": "/newtonn/static/js/main.d3c2e1cc.js.map"
+    "main.df329478.css.map": "/newtonn/static/css/main.df329478.css.map",
+    "main.e99978f3.js.map": "/newtonn/static/js/main.e99978f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f30aaae.css",
-    "static/js/main.d3c2e1cc.js"
+    "static/css/main.df329478.css",
+    "static/js/main.e99978f3.js"
   ]
 }
