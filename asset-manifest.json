@@ -1,28 +1,40 @@
 {
   "files": {
-    "main.css": "/newtonn/static/css/main.df329478.css",
-    "main.js": "/newtonn/static/js/main.e99978f3.js",
+    "main.css": "/newtonn/static/css/main.95161b4d.css",
+    "main.js": "/newtonn/static/js/main.91669b4f.js",
     "static/media/refer.png": "/newtonn/static/media/refer.6a35c99e7e3dbcf1786a.png",
     "static/media/back.png": "/newtonn/static/media/back.3addee5cbd39e14659b8.png",
+    "static/media/car2.jpg": "/newtonn/static/media/car2.ea7653cfa13d1ad01262.jpg",
+    "static/media/about.jpg": "/newtonn/static/media/about.7a73aa6044c7bcf9d471.jpg",
     "static/media/car1.jpg": "/newtonn/static/media/car1.7c6bea1d994736d1876b.jpg",
     "static/media/logo.png": "/newtonn/static/media/logo.747e223b969d0b54df36.png",
     "static/media/2.png": "/newtonn/static/media/2.1549a6154f2ac7d1c2a5.png",
     "static/media/7.png": "/newtonn/static/media/7.9854c7ea569d300c5bdb.png",
+    "static/media/st1.jpg": "/newtonn/static/media/st1.03dee131b0ec4b4babda.jpg",
+    "static/media/st5.jpg": "/newtonn/static/media/st5.03dee131b0ec4b4babda.jpg",
+    "static/media/st4.jpg": "/newtonn/static/media/st4.a19864182764e3aa4e6d.jpg",
     "static/media/5.png": "/newtonn/static/media/5.c065c3eff26a2957bd48.png",
+    "static/media/2.jpg": "/newtonn/static/media/2.d47ecebea746460f355c.jpg",
+    "static/media/st3.jpg": "/newtonn/static/media/st3.e6b1d316ca6f014f36ad.jpg",
+    "static/media/5.jpg": "/newtonn/static/media/5.8264685759466431ada9.jpg",
+    "static/media/st2.jpg": "/newtonn/static/media/st2.e2f4a5629defad2959d9.jpg",
     "static/media/1.png": "/newtonn/static/media/1.33b12123ba37f0671af0.png",
     "static/media/6.png": "/newtonn/static/media/6.5296fe2f03475817b80b.png",
-    "static/media/1.jpg": "/newtonn/static/media/1.2f678c3ef0230f427c19.jpg",
+    "static/media/1.jpg": "/newtonn/static/media/1.663a074e86157bd1ef07.jpg",
     "static/media/3.png": "/newtonn/static/media/3.83dada7f9e1644bb1f53.png",
-    "static/media/2.jpg": "/newtonn/static/media/2.d47ecebea746460f355c.jpg",
-    "static/media/3.jpg": "/newtonn/static/media/3.f4bc11e16cae9f9c2be7.jpg",
+    "static/media/3.jpg": "/newtonn/static/media/3.34848e0db92e397af412.jpg",
     "static/media/4.png": "/newtonn/static/media/4.6ec9dab10500941bd4e8.png",
+    "static/media/br2.jpg": "/newtonn/static/media/br2.4bad8cafb24f398a31b1.jpg",
+    "static/media/44.jpg": "/newtonn/static/media/44.253f4f3fa5c4c4463515.jpg",
     "static/media/profile.png": "/newtonn/static/media/profile.71cb27f6586d02e68e11.png",
+    "static/media/4.jpg": "/newtonn/static/media/4.1b8c7e836950b757dd5d.jpg",
+    "static/media/br5.jpg": "/newtonn/static/media/br5.e789b5dc2d627c17a66d.jpg",
     "index.html": "/newtonn/index.html",
-    "main.df329478.css.map": "/newtonn/static/css/main.df329478.css.map",
-    "main.e99978f3.js.map": "/newtonn/static/js/main.e99978f3.js.map"
+    "main.95161b4d.css.map": "/newtonn/static/css/main.95161b4d.css.map",
+    "main.91669b4f.js.map": "/newtonn/static/js/main.91669b4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.df329478.css",
-    "static/js/main.e99978f3.js"
+    "static/css/main.95161b4d.css",
+    "static/js/main.91669b4f.js"
   ]
 }
