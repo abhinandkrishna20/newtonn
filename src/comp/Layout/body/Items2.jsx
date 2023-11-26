@@ -1,31 +1,31 @@
 import React, { useState } from 'react';
 import prof from '../../../img/profile.png';
-import cm1 from '../../../img/cement/cm1.jpg';
-import cm2 from '../../../img/cement/cm2.jpg';
-import cm3 from '../../../img/cement/cm3.jpg';
-import cm4 from '../../../img/cement/cm4.jpg';
-import cm5 from '../../../img/cement/cm5.jpg';
+import st1 from '../../../img/steal/st1.jpg';
+import st2 from '../../../img/steal/st2.jpg';
+import st3 from '../../../img/steal/st3.jpg';
+import st4 from '../../../img/steal/st4.jpg';
+import st5 from '../../../img/steal/st5.jpg';
 
-const Items = () => {
+const Items2 = () => {
   const profiles = [
     {
-        "name":"JSW Steel",
-        "img":cm1
+        "name":"JSW Cement",
+        "img":st1
     },{
-        "name":"ARS Steel",
-        "img":cm2
+        "name":"UltraTech Cement",
+        "img":st2
     },
     {
-        "name":"Sail Steel",
-        "img":cm3
+        "name":"Ambuja Cement",
+        "img":st3
     },
     {
-        "name":"TATA Tiscon Steel",
-        "img":cm4
+        "name":"ACC Cement",
+        "img":st4
     },
     {
         "name":"Dalmia Cement",
-        "img":cm5
+        "img":st5
     },
   ];
   const itemsPerPage = 5;
@@ -45,32 +45,7 @@ const Items = () => {
     <div className="contract" >
         <div>
       <h3 style={{ textAlign: 'left', marginLeft: '50px' }}>
-        ORDINARY PORTLAND CEMENT (OPC) - 53
-      </h3>
-      <div>
-        <div className="con-prof" style={{width:"100%"}}>
-            <div className='but'>
-            <button onClick={handleMoveLeft} style={{ background:"#999999", textAlign:"center", justifyContent:"center",  color:"#090909",width:"10px", top:"10px", marginRight:"10px"}} >&lt;</button>
-            </div>
-          
-          {visibleProfiles.map((profile, index) => (
-            <div key={index} className="profile" style={{marginRight:"10px", padding:"2px"}}>
-              <img src={profile.img} alt="" />
-              <h4>{profile.name}</h4>
-            </div>
-          ))}
-          <div className='but'>
-          <button onClick={handleMoveRight} style={{ background:"#999999", textAlign:"center",  color:"#090909",width:"10px", top:"10px", marginLeft:"10px"}} > &gt;</button>
-        
-          </div>
-          </div>
-      </div>
-      {/* <button>SHOW MORE</button> */}
-      </div>
-
-      <div style={{paddingTop:"3%"}}>
-      <h3 style={{ textAlign: 'left', marginLeft: '50px' }}>
-      PORTLAND POZZOLANA CEMENT (PPC)
+      FE - 500 TMT BAR
       </h3>
       <div>
         <div className="con-prof" style={{width:"100%"}}>
@@ -95,7 +70,7 @@ const Items = () => {
 
       <div style={{paddingTop:"3%"}}>
       <h3 style={{ textAlign: 'left', marginLeft: '50px' }}>
-      PORTLAND SLAG CEMENT (PSC)
+      FE - 550 TMT BAR
       </h3>
       <div>
         <div className="con-prof" style={{width:"100%"}}>
@@ -106,6 +81,31 @@ const Items = () => {
           {visibleProfiles.map((profile, index) => (
             <div key={index} className="profile" style={{marginRight:"10px", padding:"10px"}}>
               <img src={profile.img} alt="" />
+              <h4>{profile.name}</h4>
+            </div>
+          ))}
+          <div className='but'>
+          <button onClick={handleMoveRight} style={{ background:"#999999", textAlign:"center",  color:"#090909",width:"10px", top:"10px", marginLeft:"10px"}} > &gt;</button>
+        
+          </div>
+          </div>
+      </div>
+      {/* <button>SHOW MORE</button> */}
+      </div>
+
+      <div style={{paddingTop:"3%"}}>
+      <h3 style={{ textAlign: 'left', marginLeft: '50px' }}>
+      FE - 600 TMT BAR
+      </h3>
+      <div>
+        <div className="con-prof" style={{width:"100%"}}>
+            <div className='but'>
+            <button onClick={handleMoveLeft} style={{ background:"#999999", textAlign:"center", justifyContent:"center",  color:"#090909",width:"10px", top:"10px", marginRight:"10px"}} >&lt;</button>
+            </div>
+          
+          {visibleProfiles.map((profile, index) => (
+            <div key={index} className="profile" style={{marginRight:"10px", padding:"10px" }}>
+              <img src={profile.img} alt=""  />
               <h4>{profile.name}</h4>
             </div>
           ))}
@@ -122,4 +122,4 @@ const Items = () => {
   );
 };
 
-export default Items;
+export default Items2;

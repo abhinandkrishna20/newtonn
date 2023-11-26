@@ -9,6 +9,7 @@ import Footer3 from "./comp/Layout/footer/Footer3";
 import About from "./comp/Layout/body/About";
 import Contact from "./comp/Layout/body/Contact";
 import Cement from "./comp/Layout/body/Cement";
+import Steel from "./comp/Layout/body/Steel";
 // import SignUp from "./comp/Layout/body/New folder/Singup";
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
           
           <Route path="/contact" element={<Contact />} />
           <Route path="/cement" element={<Cement />} />
+          
+          <Route path="/steel" element={<Steel />} />
           
           {/* <Route path="/intdesign" element={<Intdesign />} /> */}
           {/* <Route path="/interior" element={<Interior />} /> */}
