@@ -9,6 +9,7 @@ import fet2 from "../../../img/mat/22.jpg";
 import fet3 from "../../../img/mat/33.jpg";
 import fet4 from "../../../img/mat/44.jpg";
 import fet5 from "../../../img/mat/55.jpg";
+import { Link } from "react-router-dom";
 
 const Materials = () => {
   return (
@@ -20,7 +21,8 @@ const Materials = () => {
       <div className="mat-item-con" style={{margin:"5% 10%"}}>
         <div className="mat-item">
           <img src={img1} alt="" />
-          <h6>CEMENT</h6>
+          <Link to="/cement" style={{textDecoration:"none", color:"#fafafa"}}>  <h6>CEMENT</h6></Link>
+        
         </div>
         <div className="mat-item">
           <img src={img2} alt="" />
@@ -28,7 +30,8 @@ const Materials = () => {
         </div>
         <div className="mat-item">
           <img src={img3} alt="" />
-          <h6>STEEL</h6>
+          <Link to="/steel" style={{textDecoration:"none", color:"#fafafa"}}> <h6>STEEL</h6></Link>
+         
         </div>
         <div className="mat-item">
           <img src={img4} alt="" />

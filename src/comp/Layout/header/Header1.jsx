@@ -26,9 +26,9 @@ const Header1 =()=>{
                 <nav style={{}}>
                     <ul >
                         <li><a ><Link to="/"> HOME</Link></a></li>
-                        <li><a ><Link to="/services">SERVICES</Link></a></li>
+                        <li><a ><Link to="/">SERVICES</Link></a></li>
                         <li><a ><Link to="/about">ABOUT</Link></a></li>
-                        <li><a ><Link to="/blog">BLOG</Link></a></li>
+                        <li><a ><Link to="/">BLOG</Link></a></li>
                         <li><a ><Link to="/contact">CONTACT US</Link></a></li>
                     </ul>
                 </nav>
