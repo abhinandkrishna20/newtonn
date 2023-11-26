@@ -7,6 +7,8 @@ import Footer3 from "../footer/Footer3";
 import Refer from "./Refer";
 import Phase from "./Phase";
 import Contractor from "./Contarctor";
+import Materials from "./Materials";
+// import signup from '../../../../src/comp/Layout/';
 
 const Body =()=>{
     return(
@@ -14,11 +16,13 @@ const Body =()=>{
             <Carousal />
             <OurService />
             <Why />
+            <Materials />
             <Contractor />
             <Phase />
             <Howitworks />
+        
             <Refer />
-            <Footer3 />
+            {/* <Footer3 /> */}
         </div>
     );
 }

@@ -70,8 +70,10 @@
 }
 
 .footer{
-    /* position: fixed;  */
-    bottom: 0;
+    position: absolute ; 
+    overflow:visible;
+    /* height: 80%; */
+    /* bottom: 0; */
     width: 100%;
     /* margin: 0; */
     padding: 0;
@@ -212,12 +214,13 @@ padding: opx;
 .contract{
     padding: 40px 10px;
     margin-top: 40px 0px;
+    align-items: center;
 }
 .profile{
     box-shadow: 2px 2px 2px 2px #021212;
     width: fit-content;
     border-radius: 10px;
-    margin: 10px;
+    margin: 7px;
     
 }
 .profile h4{
@@ -245,6 +248,13 @@ padding: opx;
 .con-prof::-webkit-scrollbar{
     display: none;
 }
+.navitems a, .navitems Link {
+    text-decoration: none;
+    color: #021212;
+}
+.navitems li:hover{
+    color: #d1d1d1;
+} 
 
 .contract button{
     background-color: #080808;
@@ -258,4 +268,83 @@ padding: opx;
     /* position: absolute; */
     width: 250px;
     left: 100px;
+}
+
+.materials{
+    
+    margin-top: 5%;
+}
+.mat-item-con{
+    justify-content: center;
+    margin: 2% 10%;
+    display: flex;
+
+}
+.mat-item{
+    background-image: linear-gradient(to top, rgb(117, 2, 27), rgb(238, 163, 180));
+    width: fit-content;
+    padding: 5px;
+    color: #fbfafa;
+    margin-right: 3%;
+
+}
+.mat-item img{
+    height: 240px;
+}
+.mat-item h6{
+    padding: 5px;
+    font-size: 20px;
+}
+.feature-con{
+    justify-content: center;
+    margin: 2% 15%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.feature{
+    width: fit-content;
+
+    
+
+}
+.feature img{
+    height: 80px;
+    
+}
+.feature h6{
+    max-width: 200px;
+    width: auto;
+}
+
+.sign-container{
+  
+}
+.contract .but{
+    /* height: 20px;
+    width: 20px; */
+    border-radius: 50%;
+    margin-top: 100px;
+    /* background-color: #999999; */
+    /* padding: 10px; */
+    margin-bottom: 100px;
+    text-align: center;
+
+
+}
+.brand{
+    margin-top: 5%;
+}
+
+.brand .brand-items{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-right: 10px;
+    /* justify-content: space-around; */
+}
+.brand-items img {
+    margin-top: 2%;
+    margin-right: 5%;
 }

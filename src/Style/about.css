@@ -88,4 +88,8 @@
       width: 50%;
     }
   }
+
+  .about h5 .about p {
+    text-align: left;
+  }
   

@@ -1,7 +1,7 @@
 import React from "react";
 import Carousal from './Carousal';
-import "../Style/Contact.css";
-
+// import "../Style/Contact.css";
+import '../../../Style/Contact.css';
 const Contact =()=>{
     return(
         <div>
@@ -9,7 +9,7 @@ const Contact =()=>{
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          {/* <h2>Contact</h2> */}
           <h3><span>Contact Us</span></h3>
           <p>Get your Queries with Us. Please Contact NEWTONN </p>
         </div>

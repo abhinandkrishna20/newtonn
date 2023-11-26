@@ -1,13 +1,15 @@
 import React from "react";
 import '../../../Style/mainstyle.css'
 import logo from '../../../img/logo3.jpg';
+import { Link } from "react-router-dom";
 
 const Header1 =()=>{
     return(
         <div>
             <div  id="top" className="top" >
                 <ul style={{display:"flex", padding:"10px"}}>
-                    <li><a href="#"> Login/Signup</a></li>
+                    
+                    <li><a > <Link to="/login">Login/Signup</Link> </a></li>
                     <li><a href="#">Register as a Professional</a></li>
                     <li><a href="#">
                         Refer and Earn</a>
@@ -23,11 +25,11 @@ const Header1 =()=>{
                 <div className="navitems" style={{padding:"10px 0px", flexDirection:"row", right:"10px" }}>
                 <nav style={{}}>
                     <ul >
-                        <li>HOME</li>
-                        <li>SERVICES</li>
-                        <li>ABOUT</li>
-                        <li>BLOG</li>
-                        <li>CONTACT US</li>
+                        <li><a ><Link to="/"> HOME</Link></a></li>
+                        <li><a ><Link to="/services">SERVICES</Link></a></li>
+                        <li><a ><Link to="/about">ABOUT</Link></a></li>
+                        <li><a ><Link to="/blog">BLOG</Link></a></li>
+                        <li><a ><Link to="/contact">CONTACT US</Link></a></li>
                     </ul>
                 </nav>
                 </div>

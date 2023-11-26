@@ -1,12 +1,12 @@
 import React from "react";
 import Carousal from "./Carousal";
-import about from "../img/about.jpg";
-import "../Style/about.css";
-import Service from "./Service";
+import about from "../../../img/about.jpg";
+import "../../../Style/about.css";
+// import Service from "./Service";
 
 const About = () => {
   return (
-    <div >
+    <div  className="about">
       <div id="about" class="about section-bg">
         <div class="container" data-aos="fade-up" >
           <div class="section-title">
@@ -19,7 +19,7 @@ const About = () => {
             </p>
           </div>
 
-          <div class="row">
+          <div class="row about-item">
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
               <img src={about} class="img-fluid" alt="" />
             </div>

@@ -4,6 +4,12 @@ import ReactDOM from "react-dom/client";
 import Header1 from "./comp/Layout/header/Header1";
 import Footer from "./comp/Layout/footer/Footer";
 import Body from "./comp/Layout/body/Body";
+import Sign from "./comp/Layout/body/Sign";
+import Footer3 from "./comp/Layout/footer/Footer3";
+import About from "./comp/Layout/body/About";
+import Contact from "./comp/Layout/body/Contact";
+import Cement from "./comp/Layout/body/Cement";
+// import SignUp from "./comp/Layout/body/New folder/Singup";
 function App() {
   return (
     <div className="App">
@@ -13,21 +19,25 @@ function App() {
       {/* <Top />
         <Header   /> */}
         <Header1 />
-        <Body />
+        
         <Routes>
           
-          {/* <Route path="/" element={<Home2 />} /> */}
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Body />} />
+         
           
-          {/* <Route path="/sign" element={} /> */}
-          {/* <Route path="/about" element={<About />} /> */}
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/login" element={<Sign />} />
+          <Route path="/about" element={<About />} />
+          
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/cement" element={<Cement />} />
+          
           {/* <Route path="/intdesign" element={<Intdesign />} /> */}
           {/* <Route path="/interior" element={<Interior />} /> */}
           
           
           
         </Routes>
+        <Footer3 />
         {/* <Footer /> */}
    
       </BrowserRouter>
